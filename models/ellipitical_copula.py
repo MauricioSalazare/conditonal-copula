@@ -10,7 +10,7 @@ import warnings
 import pandas as pd
 from scipy.stats import multivariate_normal, norm, t, wasserstein_distance, ks_2samp, shapiro
 from scipy import optimize, interpolate
-import elliptical_distributions_study as utils
+import models.elliptical_distributions_study as utils
 
 
 class EllipticalCopula:
@@ -352,7 +352,7 @@ class EllipticalCopula:
                   'Association, Vol. 90. No. 430. page 777')
             print('\n\n\n\n')
 
-    def sample(self, n_samples=5000, conditional=False, variables={'x3': 3.3}, negative_clamp=False, drop_inf=False, silent=True):
+    def sample(self, n_samples=5000, conditional=False, variables={'x3': 3.3}, negative_clamp=False, drop_inf=True, silent=True):
         '''
         Returns a np.array (rows are variables (time-steps), columns are instances)
         :param n_samples:
