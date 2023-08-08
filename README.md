@@ -1,6 +1,6 @@
 # conditonal-copula
-This is the repository for the algorithms implementation of the paper: "Conditional Multivariate Elliptical Copulas to Model Residential Load Profiles from Smart Meter Data"
+This is the repository for the algorithm's implementation of the paper: "Conditional Multivariate Elliptical Copulas to Model Residential Load Profiles from Smart Meter Data"
 
-Repository has moved and updated [here](https://github.com/MauricioSalazare/multi-copula): https://github.com/MauricioSalazare/multi-copula
+The repository has been moved and updated: https://github.com/MauricioSalazare/multi-copula
 
 
